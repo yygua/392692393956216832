@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+<!-- saved from url=(0078)http://cert.msstc.org.cn/detail-show?id=230525561995&number=412825197408183324 -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		
 		<title>证书查询</title>
 		<link rel="stylesheet" type="text/css" href="./inquery.css">
 		<style type="text/css">
 			p{color: #000000ad;}
-			.skill-box{background-image:./20240728152023.jpg;}
+			.skill-box{background-image: url(./20240728152023.jpg);}
 			p.skill-name{top:175px;left: 395px;}
 			p.skill-Gender{top:175px;left: 615px;}
 			p.skill-id{top:206px;left: 405px;}
@@ -15,5 +16,30 @@
 			img.skill-photo{top: 196px;left: 130px;}
 			img.wx-photo{left: 130px;bottom: 180px;}
 		</style>
-			
+			</head>
+	<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onbeforecopy="return false" oncopy="document.selection.empty()" onselect="document.selection.empty()">
+		<a href="https://www.msstc.org.cn/" style="text-decoration:none;">
+			<p style="color: red;text-align: center;font-size: 30px;line-height: 40px;margin:5px 0px 5px;">备注:点击返回首页</p>
+		</a>
+		<div class="skill-box">
+		</div>
+		<p class="bak" onclick="window.history.back(-1);">返 回</p>
+	
+	<script type="text/Javascript">
+		document.onkeydown = function(){
+		    if(window.event && window.event.keyCode == 123) {
+		        event.keyCode=0;
+		        event.returnValue=false;
+		    }
+		    if(window.event && window.event.keyCode == 13) {
+		        window.event.keyCode = 505;
+		    }
+		    if(window.event && window.event.keyCode == 8) {
+		        alert(str+"\n请使用Del键进行字符的删除操作！");
+		        window.event.returnValue=false;
+		    }
+		}
+	</script>
+
+
 </body></html>
